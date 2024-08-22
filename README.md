@@ -16,7 +16,15 @@
 * Tener instalado Apache Maven (versión usada 3.9.2) y variables de entorno configuradas
 * Extensiones requeridas por IntelliJ como CSVReader, entre otras
 
-# Para ejecutar pruebas:
+# Para ejecutar pruebas
 * Ejecutar limpieza de proyecto con comandos Maven (mvn clean, mvn compile y mvn test)
 * Luego abrir clase MainRunner y ejecutar el metodo "public class MainRunner extends AbstractTestNGCucumberTests", deberia tener el icono play en verde para ejecutar todos los casos de pruebas
 * También se puede ejecutar cada feature y/o escenario de manera individual, esto presionando el botón de ejecucion (doble play verde en cada escenario)
+
+# Reporte de pruebas y evidencias:
+
+* El reporte y las evidencias se generan dinámicamente en la carpeta tarjet luego de cada ejecución
+* Las evidencias de cada ejecución se almacenan en tarjet/screenshots
+* El reporte de cada ejecución se genera en el archivo tarjet/test/reporte-de-prueba.html
+* Se crea la carpeta src/test/resources/imagenes-con-evidencias para dejar las evidencias estáticas de la última ejecución realizada
+* Quedó pendiente atachar las evidencias al reporte, pero ambos registros se encuentran en las carpetas indicadas
