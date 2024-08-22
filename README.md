@@ -1,4 +1,4 @@
-# Selenium Cucumber Framework
+# Selenium Cucumber Framework - Creado por Jorge Montero Ayala
 
 # Tecnologías usadas
 * Framework creado con Maven, Selenium 4, TestNG, CucumberBDD en lenguaje Java (JDK 17.0.9)
